@@ -1,34 +1,37 @@
 # Date & Time Snippets
 
+[⤓ Download Workflow]()
+
 ## About
 
-Custom snippets with current time, relative dates and more
+Adds a list of custom snippets with current date, time, relative dates, and more to Alfred.
 
 ## How it works
 
 ## Unix date command
 
 - Start reading from the purple object executing the `date` command.
-- `date` is provided with a format argument and a params argument.
-- Before the command is run, a locale is set to the environment
+- `date` is provided with two arguments: `format` and `params`.
+- Before the command is run, a `locale` is set to the environment.
+- `format` specifies the output format. For exampel the order between day and month.
+- `params` specifies what date to use. If it's not blank, todays date will be used.
 
 ### Workflow object colours
 
-- Yellow "Snippet" is in the "Primary locale"
-- Yellow "Arg and Vars" adds a format in "Primary locale"
-- Blue "Snippet" is in the "Secondary locale"
-- Blue "Arg and Vars" adds a format in "Secondary locale" (default en_US)
-
-### asdf
-
-- The mindset is "localized", english is the sencond locale
+- Yellow "Snippets" defines a snippet in the "Primary locale".
+- Yellow "Arg and Vars" sets variable `format` aligned to "Primary locale".
+- Blue "Snippets" defines a snippet in the "Secondary locale".
+- Blue "Arg and Vars" sets variable `format` aligned to "Secondary locale".
+- Gray "Arg and Vars" sets variable `params` to define a date (used by all locales).
+- Purple "Arg and Vars" sets variable `format` to a format used by all locales.
+- Red objects are used to execute the command and output the result.
 
 ## Changelog
 
-v2
+v2.0
 
-- Adapt to Alfred 5
-- Add Readme
+- adapt to Alfred 5
+- add Readme
 
 v1.8
 
@@ -40,35 +43,43 @@ v1.8
 - add previous week snippet
 
 v1.7
-added unix timestamp in seconds, "timestamp" (alias "ts")
+
+- added unix timestamp in seconds, "timestamp" (alias "ts")
 
 v1.6
-replace shared suffix with suffix on each trigger, due to interference with other workflows
+
+- replace shared suffix with suffix on each trigger, due to interference with other workflows
 
 v1.5
-add 2 snippets for time: "time" (alias "t"), "now" (alias "n")
+
+- add 2 snippets for time: "time" (alias "t"), "now" (alias "n")
 
 v1.4
-add pbpaste and delay to restore clipboard contents
+
+- add pbpaste and delay to restore clipboard contents
 
 v1.3
-add week
-add alias "dd"
+
+- add week
+- add alias "dd"
 
 v1.2
-add 7 snippets for upcoming weekdays
+
+- add 7 snippets for upcoming weekdays
 
 v1.1
-add var:params
-add snippet "igår"
-add snippet "om90"
-add external log
+
+- add var:params
+- add snippet "yesterday"
+- add snippet "90d"
 
 v1.0
-imporve command line to output Swedish and lower case
-add snippet "idag"
-add snippet "datum"
+
+- improve command line to output localized and lower case
+- add snippet "today"
+- add snippet "date"
 
 v0.1
-poc
-add snippet "d"
+
+- poc
+- add snippet "d"
