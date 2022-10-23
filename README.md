@@ -6,9 +6,17 @@
 
 Adds a list of custom snippets with current date, time, relative dates, and more to Alfred.
 
+The workflow supports localization with a Primary locale and a Secondary locale.
+
+## Usage
+
+- Download and install.
+- Choose your Primary locale in the User configuration.
+- Add snippets in your locale to the yellow object.
+
 ## How it works
 
-## Unix date command
+## Unix `date` command
 
 - Start reading from the purple object executing the `date` command.
 - `date` is provided with two arguments: `format` and `params`.
@@ -25,6 +33,13 @@ Adds a list of custom snippets with current date, time, relative dates, and more
 - Gray "Arg and Vars" sets variable `params` to define a date (used by all locales).
 - Purple "Arg and Vars" sets variable `format` to a format used by all locales.
 - Red objects are used to execute the command and output the result.
+
+### Localization
+
+- The Primary locale is intended to be the spcific one.
+- My native language is Swedish so the yellow snippets are all in Swedish.
+- The Secondary locale is set to American English by default.
+- Two locales are implemented by having two snippet objects for each snippet. The benefit of this is that you can have natural language snippets, for the different locales. The drawback is that it is harder to maintain the double amount of objects in the workflow.
 
 ## Changelog
 
