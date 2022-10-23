@@ -1,6 +1,6 @@
 # Date & Time Snippets
 
-[⤓ Download Workflow]()
+[⤓ Download Workflow](https://github.com/psu/alfred-date-time-snippets/raw/master/Date%20%26%20Time%20Snippets.alfredworkflow)
 
 ## About
 
@@ -52,6 +52,8 @@ Different formats show in parentheses.
 - Next Monday, Next Tuesday ... Next Sunday (Month, DD, YYYY)
 - This week, Next week, Previous week (WW)
 - 90 days from now (MM, DD, YYYY)
+
+![Screenshot of the Alfred workflow editor](screenshot.png)
 
 ## Changelog
 
