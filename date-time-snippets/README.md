@@ -1,6 +1,6 @@
 # Date & Time Snippets
 
-[⤓ Download Workflow](https://github.com/psu/alfred-date-time-snippets/raw/master/Date%20%26%20Time%20Snippets.alfredworkflow)
+[⤓ Download Workflow](https://github.com/psu/alfred-workflows/raw/master/date-time-snippets/Date%20%26%20Time%20Snippets.alfredworkflow)
 
 ## About
 
