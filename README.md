@@ -17,7 +17,7 @@ The workflow supports localization with a Primary locale and a Secondary locale.
 
 ## How it works
 
-## Unix date command
+### Unix date command
 
 - Start reading from the purple object executing the `date` command.
 - `date` is provided with two arguments: `format` and `params`.
