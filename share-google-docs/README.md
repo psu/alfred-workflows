@@ -1,6 +1,6 @@
 # Share Google Docs
 
-[⤓ Download Workflow](https://github.com/psu/alfred-share-google-docs/raw/v1/Share%20Google%20Docs.alfredworkflow)
+[⤓ Download Workflow](https://github.com/psu/alfred-workflows/raw/master/share-google-docs/Share%20Google%20Docs.alfredworkflow)
 
 ## About
 
