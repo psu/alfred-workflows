@@ -112,3 +112,7 @@ Different formats show in parentheses.
 
 - poc
 - add snippet "d"
+
+---
+
+Pontus Sundén, 2023
