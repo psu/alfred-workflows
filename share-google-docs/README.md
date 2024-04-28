@@ -47,3 +47,7 @@ If the workflow is triggered with a Google Docs in the current tab of your brows
 
 - Share links definitions and inspiration: https://learninginhand.com/blog/google-document-url-tricks
 - Icon by Vectorslab from: https://www.flaticon.com/free-icon/google-docs_6711870
+
+---
+
+Pontus Sundén, 2023
